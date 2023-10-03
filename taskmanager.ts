@@ -9,6 +9,7 @@ class TaskManager {
 
     addTask(task: Task) {
         this.tasks.push(task);
+
     }
 
     removeTask(task: Task) {
@@ -17,6 +18,10 @@ class TaskManager {
 
     getTasks(): Task[] {
         return this.tasks;
+    }
+
+    getAllColors(): string[] {
+        return this.tasks.map(t => t.color());
     }
 
     getTasksByLabel(label: string): Task[] {
