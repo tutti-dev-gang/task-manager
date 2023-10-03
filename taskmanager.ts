@@ -9,7 +9,6 @@ class TaskManager {
 
     addTask(task: Task) {
         this.tasks.push(task);
-
     }
 
     removeTask(task: Task) {

@@ -14,18 +14,3 @@ export class User {
   }
 }
 
-// export class Users {
-//     users: User[];
-//     constructor() {
-//         this.users = [];
-//     }
-//     addUser(user: User) {
-//         this.users.push(user);
-//     }
-//     removeUser(user: User) {
-//         this.users = this.users.filter(u => u.username !== user.username);
-//     }
-//     getUsers(): User[] {
-//         return this.users;
-//     }
-// }
